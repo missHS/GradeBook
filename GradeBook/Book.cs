@@ -49,6 +49,17 @@ namespace GradeBook
 
         }
      
+        public void WriteBookName() 
+        {
+            Console.WriteLine($"This is: {this.name}");
+        }
+
+        public void ChangeBookName(string newName)
+        {
+            this.name = newName;
+            Console.WriteLine($"This is the new name: {this.name}");
+
+        }
 
 
     }
